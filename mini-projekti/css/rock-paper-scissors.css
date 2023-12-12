@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.imgRPS{
+  height: 50px;
+}
+
+.btnRPS {
+  border-radius: 100px;
+  width: 120px;
+  height: 120px;
+  border: 3px solid white;
+  margin-right: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.btnReset, .btnAutoPlay {
+  padding: 8px 15px;
+  font-size: 15px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.score {
+  margin-top: 60px;
+}

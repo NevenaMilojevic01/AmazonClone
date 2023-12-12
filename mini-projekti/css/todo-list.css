@@ -1,0 +1,45 @@
+body{
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.btnAdd {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 11px 35px;
+  cursor: pointer;
+}
+
+.name {
+  padding: 8px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.date  {
+  padding: 7px;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.btnDelete {
+  background-color: rgb(116, 5, 5);
+  color: white;
+  border: none;
+  padding: 11px 35px;
+  cursor: pointer;
+}
+
+.text-grid, .todo-grid {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.todo-grid {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
